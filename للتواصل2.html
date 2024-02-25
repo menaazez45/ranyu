@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ارسال عبر واتساب</title>
+<style>
+    /* CSS لوسط النموذج */
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+ 
+</style>
+</head>
+<body>
+
+    <div class="center">
+        <form action="mailto:raniaalmahrouky952000@gmail.com" method="POST" enctype="text/plain">
+            <input type="hidden" name="subject" value="Subject">
+            <br><br>
+            <input type="text" name="name" placeholder="اسمك">
+            <br><br>
+            <textarea name="message" placeholder="رسالتك"></textarea>
+            <br><br>
+            <button type="submit">إرسال عبر البريد الإلكتروني</button>
+        </form>
+    </div>
+    
+
+</body>
+</html>

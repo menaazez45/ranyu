@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ارسال عبر واتساب</title>
+<style>
+    /* CSS لوسط النموذج */
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+ 
+</style>
+</head>
+<body>
+
+<div class="center">
+    <form action="https://api.whatsapp.com/send" method="GET">
+        <input type="hidden" name="phone" value="201033242288">
+        <br><br>
+        <input type="text" name="text" placeholder="اسمك">
+        <br><br>
+        <input type="text" name="text" placeholder="رسالتك">
+        <br><br>
+        <button type="submit">ارسال عبر واتساب</button>
+    </form>
+</div>
+
+</body>
+</html>
